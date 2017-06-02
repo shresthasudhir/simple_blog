@@ -473,3 +473,14 @@ Processing by PostsController#index as HTML
 Completed 200 OK in 84ms (Views: 81.4ms | ActiveRecord: 0.2ms)
 
 
+DEPRECATION WARNING: You didn't set `secret_key_base`. Read the upgrade documentation to learn more about this new config option. (called from env_config at /Users/shresthasudhir/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/railties-5.0.3/lib/rails/application.rb:246)
+DEPRECATION WARNING: You didn't set `secret_key_base`. Read the upgrade documentation to learn more about this new config option. (called from env_config at /Users/shresthasudhir/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/railties-5.0.3/lib/rails/application.rb:246)
+Started GET "/" for 127.0.0.1 at 2017-06-01 21:46:44 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  Rendered posts/index.html.erb within layouts/application (16.4ms)
+Completed 200 OK in 3876ms (Views: 3854.9ms | ActiveRecord: 1.0ms)
+
+
